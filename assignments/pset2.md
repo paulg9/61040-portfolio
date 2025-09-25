@@ -8,7 +8,7 @@
 2. **Storing used strings**
 
     *NonceGeneration* must store sets of used strings because we can never return the same string more than once for a context, so we must store what we have already returned as a way to verify this.
-    To implement using a counter, we would need some encoding that inputs an integer $ n \in \mathbb{N}$ and maps to some string, such that no two integers map to the same string. To generate, we plug in our counter to our encoder, return that string, and increment the counter. In terms of an abstraction function, used set = $ a(j) = \{encode(i) \ | \ 0 \leq i \lt j\}$.
+    To implement using a counter, we would need some encoding that inputs an integer $ n \in \mathbb{N}$ and maps to some string, such that no two integers map to the same string. To generate, we plug in our counter to our encoder, return that string, and increment the counter. In terms of an abstraction function, used set = $ a(j) = \{encode(i)  |  0 \leq i \lt j\}$.
 
 3. **Words as nonces**
 
