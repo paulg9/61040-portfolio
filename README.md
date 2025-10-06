@@ -20,3 +20,4 @@ Some fun facts about me:
 
 [Link to Pset 2](assignments/pset2.md)
 
+[Link to Assignment 2](assignments/assignment2.md)
